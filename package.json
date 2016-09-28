@@ -1,8 +1,8 @@
 {
   "name": "laravel-elixir-rtl-less",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This is a tiny wrapper combined of rtlcss and less for Laravel Elixir 6",
-  "main": "src/main.js",
+  "main": "dist/main.js",
   "scripts": {
     "compile": "./node_modules/.bin/babel -d dist/ src/",
     "prepublish": "npm run compile"
